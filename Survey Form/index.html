@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+
+
+ 
+  <title >
+    Survey Form
+  </title>
+</head>
+<body>
+  
+  
+  <div class="img"></div>
+<div class="main">
+    <h1 id="title">
+      Flipkart Survey Form
+    </h1>
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+  <form id="survey-form">
+    <div class="name">
+  <label for="name" id="name-label" >Name:</label><br>
+  <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    </div>
+    
+   
+  
+<div class="name">
+    <label for="email" id="email-label">Email:</label><br>
+  <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+
+    </div>
+  <div class="name">
+    <label for="number" id="number-label">Age:(optional)</label><br>
+  <input type="number" id="number" name="age" placeholder="Age" min="14" max="80">
+
+    </div>
+  
+ <div class="dropdown">
+    <label for="dropdown" id="dropdown">Which option best describes your current role?</label><br>
+  <select id="dropdown" name="dropdown">
+    <option id="dropdown" value="Student">Student</option>
+    <option id="dropdown"  value="Employed">Employed</option>
+    <option id="dropdown" value="Intern">Intern</option>
+    <option id="dropdown" value="Prefer not to say">Prefer not to say</option>
+   
+   
+    
+    <option id="dropdown" value="others">Bekaar</option>
+  </select>
+   
+  </div>
+<div class="radio">  
+    <label for="radio" id="radio">Would you recommend flipkart to a friend?</label><br><br>
+  <input type="radio" id="definetly" name="suggestion" value="definetly">
+  <label for="definetly">Definetly</label><br>
+  <input type="radio" id="maybe" name="suggestion" value="maybe">
+  <label for="maybe">Maybe</label><br>
+  <input type="radio" id="not-sure" name="suggestion" value="not-sure">
+  <label for="not-sure">Not Sure</label>
+    </div>
+    
+  <div class="dropdown">
+    <label for="dropdown" id="dropdown">Which is your favourite section on the Website?</label><br>
+  <select id="dropdown" name="dropdown">
+    
+    
+    
+    <option id="dropdown" value="Fashion">Fashion</option>
+    <option id="dropdown"  value="Electronics">Electronics</option>
+    <option id="dropdown" value="Houshold">Houshold</option>
+    <option id="dropdown" value="Others">Others</option>
+    </select>
+    
+    
+  </div>
+  <div class="checkbox">
+    
+    <label for="checkbox" id="dropdown">What would you like to see improved? (Check all that apply)</label><br><br>
+    <input type="checkbox" id="shopping-Experience" name="Shopping" value="shopping">
+  <label for="shopping-experence"> Shopping</label><br>
+  <input type="checkbox" id="user-interface" name="user interface" value="user-interface">
+  <label for="user-interface"> User Interface</label><br>
+  <input type="checkbox" id="customer-support" name="support" value="customer" >
+  <label for="customer-support"> Customer Support</label><br>
+    <input type="checkbox" id="delevery-related" name="Logistics" value="deleverye" >
+  <label for="Delevery-related"> Logistics</label><br>
+    <input type="checkbox" id="pay-later" name="post pay" value="pay-later">
+  <label for="pay-later"> Pay Later</label><br>
+    <input type="checkbox" id="flipkart-plus" name="plus" value="plus">
+  <label for="flipkart-plus"> Flipkart Plus</label><br>
+    <input type="checkbox" id="supercoins" name="supercoins" value="coins">
+  <label for="supercoins"> Supercoins</label><br>
+    <input type="checkbox" id="payments" name="payments"  value="payments">
+  <label for="payments"> Payment Methods</label><br>
+    <input type="checkbox" id="others" name="others" value="others">
+  <label for="others"> Others</label>
+
+  <br>
+ 
+  </div>
+  
+<div class="textarea">
+    <label for="textarea" id="textarea"> Any comments or suggestions?</label><br><br>
+  <textarea name="message" rows="10" cols="50"></textarea>
+  </div>
+  <br>
+    <div class="button">
+  <input type="submit" id="submit">
+  </div>
+
+   
+  </form>
+  </div>
+  </body>
+</html>
+ 
+ 
